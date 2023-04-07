@@ -19,7 +19,7 @@ public class Task1 {
             for(int j = 0; j < list2.size(); j++){
                 if(list1.get(i)==list2.get(j)){
                     dif.add(list1.get(i));
-                    step++; // разность массивов
+                    step++; // разность списков
                 }
                 if(j == list2.size()-1 & step == 0){
                     symdif.add(list1.get(i)); // симметрическая разность
